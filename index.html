@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <title>DIA DA MÚSICA</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html">
+                🎵
+                Dia Internacional da Música
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Eventos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Instrumentos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#generos">Gêneros</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#historia">História da Música</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+
+                            👤
+                        </a>
+
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Cadastre-se
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Login
+                                </a>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Desconectar
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                </ul>
+
+                <form class="d-flex" role="search">
+
+                    <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Pesquisar"
+                        aria-label="Pesquisar">
+
+                    <button
+                        class="btn btn-outline-success"
+                        type="submit">
+
+                        Pesquisar
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <div class="container">
+
+
+
+        <div class="row my-4">
+
+            <div class="col-lg-12">
+
+                <div
+                    id="carouselExampleAutoplaying"
+                    class="carousel slide"
+                    data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img
+                                src="img/img1.jpg"
+                                class="d-block w-100"
+                                alt="Imagem sobre música">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img
+                                src="img/img2.jpg"
+                                class="d-block w-100"
+                                alt="Imagem sobre música">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img
+                                src="img/img3.jpg"
+                                class="d-block w-100"
+                                alt="Imagem sobre música">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img
+                                src="img/img4.jpg"
+                                class="d-block w-100"
+                                alt="Imagem sobre música">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img
+                                src="img/img5.jpg"
+                                class="d-block w-100"
+                                alt="Imagem sobre música">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img
+                                src="img/img6.jpg"
+                                class="d-block w-100"
+                                alt="Imagem sobre música">
+                        </div>
+
+                    </div>
+
+
+
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+
+                        <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true">
+                        </span>
+
+                        <span class="visually-hidden">
+                            Anterior
+                        </span>
+
+                    </button>
+
+
+
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+
+                        <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true">
+                        </span>
+
+                        <span class="visually-hidden">
+                            Próximo
+                        </span>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <h1>Gêneros Musicais</h1>
+        <div class="row" id="generos">
+
+
+            <div class="col-lg-4 mb-4">
+
+                <div class="card">
+
+                    <img
+                        src="img/img1.jpg"
+                        class="card-img-top"
+                        alt="Rock">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title text-dark">
+                            🎸 Rock
+                        </h5>
+
+                        <p class="card-text">
+                            Energia, atitude e liberdade. O rock atravessa gerações
+                            com guitarras marcantes, baterias intensas e uma identidade
+                            que nunca perde sua força.
+                        </p>
+
+                        <a href="#" class="btn btn-dark">
+                            Saiba mais
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-lg-4 mb-4">
+
+                <div class="card">
+
+                    <img
+                        src="img/img2.jpg"
+                        class="card-img-top"
+                        alt="Rap">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title text-warning">
+                            🎤 Rap
+                        </h5>
+
+                        <p class="card-text">
+                            Voz, realidade e expressão. O rap transforma experiências
+                            e questões sociais em rimas, batidas e histórias que dão
+                            voz a diferentes perspectivas.
+                        </p>
+
+                        <a href="#" class="btn btn-warning">
+                            Saiba mais
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-4 mb-4">
+
+                <div class="card">
+
+                    <img
+                        src="img/img5.jpg"
+                        class="card-img-top"
+                        alt="Música de Rua">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title text-primary">
+                            🎷 Música de Rua
+                        </h5>
+
+                        <p class="card-text">
+                            A música onde a vida acontece. Nas ruas, artistas
+                            transformam espaços públicos em palcos, levando
+                            criatividade, cultura e música diretamente para as pessoas.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">
+                            Saiba mais
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-lg-4 mb-4">
+
+                <div class="card">
+
+                    <img
+                        src="img/img3.jpg"
+                        class="card-img-top"
+                        alt="Samba">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title text-danger">
+                            🥁 Samba
+                        </h5>
+
+                        <p class="card-text">
+                            Ritmo que vem da alma brasileira. O samba celebra
+                            a cultura, a alegria e a história do Brasil através
+                            de seus batuques e melodias envolventes.
+                        </p>
+
+                        <a href="#" class="btn btn-danger">
+                            Saiba mais
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-lg-4 mb-4">
+
+                <div class="card">
+
+                    <img
+                        src="img/img4.jpg"
+                        class="card-img-top"
+                        alt="Reggae">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title text-success">
+                            🌴 Reggae
+                        </h5>
+
+                        <p class="card-text">
+                            Vibração, paz e resistência. Nascido na Jamaica,
+                            o reggae conquistou o mundo com seus ritmos marcantes
+                            e mensagens de liberdade, união e esperança.
+                        </p>
+
+                        <a href="#" class="btn btn-success">
+                            Saiba mais
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-lg-4 mb-4">
+
+                <div class="card">
+
+                    <img
+                        src="img/img6.jpg"
+                        class="card-img-top"
+                        alt="Música Eletrônica">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title text-info">
+                            🎧 Eletrônica
+                        </h5>
+
+                        <p class="card-text">
+                            Som, tecnologia e movimento. A música eletrônica
+                            transforma batidas e sintetizadores em experiências
+                            que fazem o corpo vibrar e a pista ganhar vida.
+                        </p>
+
+                        <a href="#" class="btn btn-info">
+                            Saiba mais
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <h1>Popularidade</h1>
+        <div class="progress" role="progressbar" aria-label="Dark example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar text-bg-dark" style="width: 82%">Rock - 82%</div>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar text-bg-warning" style="width: 27%">Rap - 27%</div>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Primary example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar text-bg-primary" style="width: 25%">Música de Rua - 25%</div>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar text-bg-danger" style="width: 39%">Samba - 39%</div>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar text-bg-success" style="width: 55%">Reggae - 55%</div>
+        </div>
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar text-bg-info" style="width: 67%">Eletrônica - 67%</div>
+        </div>
+
+
+
+        <div class="row my-4" id="sobre">
+
+
+            <div class="col-lg-8">
+
+                <h1 class="text-primary">
+                    Sobre
+                </h1>
+                <p class="mb-2">
+                    O Dia Internacional da Música é comemorado anualmente em
+                    1º de outubro. A data homenageia uma das formas de arte
+                    mais presentes na história da humanidade e celebra a música
+                    como meio de expressão, comunicação e aproximação entre
+                    diferentes povos e culturas.
+                </p>
+                <p class="mb-2">
+                    A música pode estar presente em momentos de celebração,
+                    rituais religiosos, festas, manifestações culturais, filmes,
+                    apresentações artísticas e também em situações simples do
+                    cotidiano. Uma mesma melodia pode despertar emoções e memórias
+                    diferentes em cada pessoa, mostrando como a experiência musical
+                    também está ligada às histórias e às culturas de cada sociedade.
+                </p>
+                <h2 class="text-primary" id="historia">
+                    Origem do Dia Internacional da Música
+                </h2>
+                <p class="mb-2">
+                    A ideia de criar o Dia Internacional da Música surgiu
+                    no Conselho Internacional de Música
+                    (International Music Council – IMC), organização criada
+                    em 1949 com apoio da UNESCO.
+                </p>
+                <p class="mb-2">
+                    Em 1973, uma resolução da Assembleia Geral do IMC,
+                    realizada em Lausanne, na Suíça, aprovou a criação da data.
+                    A primeira edição do Dia Internacional da Música aconteceu
+                    em 1º de outubro de 1975, por iniciativa de Lord Yehudi Menuhin,
+                    então presidente do IMC.
+                </p>
+                <p class="mb-2">
+                    Entre os objetivos estavam promover a arte musical para
+                    diferentes públicos, incentivar os ideais de paz e amizade
+                    entre os povos e estimular o intercâmbio de experiências
+                    e culturas por meio da música.
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne"
+                                aria-expanded="true"
+                                aria-controls="collapseOne">
+                                Dia Internacional da Música x Dia Mundial da Música
+                            </button>
+                        </h2>
+                        <div
+                            id="collapseOne"
+                            class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    <strong>
+                                        É importante não confundir algumas
+                                        datas relacionadas à música.
+                                    </strong>
+                                </p>
+                                <p>
+                                    O Dia Internacional da Música, celebrado
+                                    em 1º de outubro, foi criado pelo Conselho
+                                    Internacional de Música em 1975.
+                                </p>
+                                <p>
+                                    Já o chamado Dia Mundial da Música,
+                                    celebrado em muitos países em 21 de junho,
+                                    está associado à Fête de la Musique,
+                                    iniciativa criada na França em 1982 e
+                                    posteriormente difundida para diferentes
+                                    partes do mundo.
+                                </p>
+                                <p>
+                                    Assim, embora as duas datas tenham propostas
+                                    semelhantes de valorização da música,
+                                    suas origens são diferentes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo"
+                                aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                Atividades para o Dia Internacional da Música
+                            </button>
+                        </h2>
+                        <div
+                            id="collapseTwo"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    <strong>
+                                        A data pode ser celebrada de diversas
+                                        maneiras, tanto individualmente quanto
+                                        em escolas, instituições culturais
+                                        e comunidades.
+                                    </strong>
+                                </p>
+                                <p>
+                                    Algumas ideias são:
+                                </p>
+                                <ul>
+                                    <li>
+                                        Organizar apresentações musicais;
+                                    </li>
+                                    <li>
+                                        Conhecer instrumentos de diferentes culturas;
+                                    </li>
+                                    <li>
+                                        Pesquisar gêneros musicais brasileiros;
+                                    </li>
+                                    <li>
+                                        Descobrir a história de compositores e artistas;
+                                    </li>
+                                    <li>
+                                        Experimentar a criação de ritmos;
+                                    </li>
+                                    <li>
+                                        Realizar oficinas de música;
+                                    </li>
+                                    <li>
+                                        Montar uma playlist com músicas de
+                                        diferentes partes do mundo;
+                                    </li>
+                                    <li>
+                                        Conversar sobre a importância da música
+                                        para a cultura.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree"
+                                aria-expanded="false"
+                                aria-controls="collapseThree">
+                                Outras Datas Comemorativas
+                            </button>
+                        </h2>
+                        <div
+                            id="collapseThree"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>
+                                        Fev 03 - Dia em Que a Música Morreu
+                                    </li>
+                                    <li>
+                                        Fev 06 - Dia do Nascimento de Bob Marley
+                                    </li>
+                                    <li>
+                                        Mar 05 - Dia Nacional da Música Clássica
+                                    </li>
+                                    <li>
+                                        Ago 24 - Dia da Música Estranha
+                                    </li>
+                                    <li>
+                                        Set 17 - Dia Internacional da Música Country
+                                    </li>
+                                    <li>
+                                        Out 17 - Dia da Música Popular Brasileira
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button
+            type="button"
+            class="btn btn-primary mb-4"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
+            Leia mais
+        </button>
+        <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1
+                            class="modal-title fs-5"
+                            id="exampleModalLabel">
+                            Curiosidades da Música e o Dia Internacional da Música
+                        </h1>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Fechar">
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            A música está presente na humanidade há milhares
+                            de anos. Muito antes de existirem instrumentos
+                            modernos, as pessoas já utilizavam a voz, as palmas
+                            e objetos do cotidiano para criar ritmos e sons.
+                            Com o passar do tempo, diferentes povos desenvolveram
+                            seus próprios instrumentos, estilos e formas de
+                            fazer música.
+                        </p>
+                        <p>
+                            Você sabia que a música pode despertar memórias
+                            e emoções e até influenciar nosso humor? Além disso,
+                            cada cultura possui ritmos e instrumentos que ajudam
+                            a contar sua história e preservar suas tradições.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal">
+
+                            Fechar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+
+  <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+          <span class="me-2">🎵</span>
+          <strong class="me-auto">
+              Show do Gipsy Kings
+          </strong>
+          <small>5 de Dezembro</small>
+          <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="toast"
+              aria-label="Fechar">
+          </button>
+      </div>
+      <div class="toast-body">
+          Acontecerá em Brasília no Centro de Convenções Ulysses Guimarães!
+      </div>
+  </div>
+</div>
+
+<footer class="bg-dark text-white text-center p-3 mt-4">
+
+  <p class="mb-0">
+      © 2026 - Dia Internacional da Música
+  </p>
+
+  <p class="mb-0">
+      Desenvolvido por Matheus Guerra e Arthur Hansel
+  </p>
+
+</footer>
+    <script
+        src="js/bootstrap.bundle.min.js"
+        type="text/javascript">
+    </script>
+
+</body>
+
+</html>
