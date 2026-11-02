@@ -25,6 +25,12 @@ Site acadêmico sobre o Dia Internacional da Música, desenvolvido com HTML e Bo
 1. Baixe ou clone o repositório.
 2. Abra o arquivo `index.html` em um navegador.
 
+## 📷 Demonstração
+
+A imagem abaixo mostra parte da interface do site, incluindo cards de gêneros musicais, barras de popularidade, accordion e toast.
+
+![Demonstração do site Dia Internacional da Música](preview-site-musica.png)
+
 ## Autores
 
 - Matheus Guerra
