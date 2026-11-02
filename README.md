@@ -29,3 +29,7 @@ Site acadêmico sobre o Dia Internacional da Música, desenvolvido com HTML e Bo
 
 - Matheus Guerra
 - Arthur Hansel
+
+## 🌐 Acesse o site
+
+🔗 [Clique aqui para visualizar o projeto online](https://matheusguerraf122.github.io/site-dia-internacional-musica/)
