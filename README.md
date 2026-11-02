@@ -39,3 +39,7 @@ A imagem abaixo mostra parte da interface do site, incluindo cards de gêneros m
 ## 🌐 Acesse o site
 
 🔗 [Clique aqui para visualizar o projeto online](https://matheusguerraf122.github.io/site-dia-internacional-musica/)
+
+## 📄 Licença
+
+Este projeto está sob a licença **MIT**.
